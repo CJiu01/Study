@@ -7,7 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyViewController: UIViewController {
+    
+    
+    // 여기서 self는 MyViewController를 의미
+    convenience init(title: String, bgColor: UIColor) {
+        self.init()
+        self.title = title
+        self.view.backgroundColor = bgColor
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

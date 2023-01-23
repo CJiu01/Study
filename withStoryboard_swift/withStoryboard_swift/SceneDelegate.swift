@@ -26,13 +26,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         // 뷰컨트롤러 인스턴스 가져오기
-        let vc = ViewController()
+        let mainTC = MainTabBarController()
         
         // 네비게이션 컨트롤러 설정
-        let navVc = UINavigationController(rootViewController: vc)
+//        let navVc = UINavigationController(rootViewController: vc)
         
         // 뿌리 뷰컨트롤러를 설정
-        window?.rootViewController = navVc
+        window?.rootViewController = mainTC
         
         // 설정한 윈도우를 보이게 끔 설정
         window?.makeKeyAndVisible()
