@@ -7,104 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B724013298EDD8C00DA2573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B724012298EDD8C00DA2573 /* AppDelegate.swift */; };
-		7B724015298EDD8C00DA2573 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B724014298EDD8C00DA2573 /* SceneDelegate.swift */; };
-		7B724017298EDD8C00DA2573 /* UIMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B724016298EDD8C00DA2573 /* UIMenuViewController.swift */; };
-		7B72401C298EDD8D00DA2573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B72401B298EDD8D00DA2573 /* Assets.xcassets */; };
-		7B72401F298EDD8D00DA2573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B72401D298EDD8D00DA2573 /* LaunchScreen.storyboard */; };
-		7B724028298EDF4700DA2573 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B724027298EDF4700DA2573 /* SnapKit */; };
+		7B2BBF1929923B3A00EE0F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BBF1829923B3A00EE0F1F /* AppDelegate.swift */; };
+		7B2BBF1B29923B3A00EE0F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BBF1A29923B3A00EE0F1F /* SceneDelegate.swift */; };
+		7B2BBF1D29923B3A00EE0F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BBF1C29923B3A00EE0F1F /* ViewController.swift */; };
+		7B2BBF2229923B3B00EE0F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2BBF2129923B3B00EE0F1F /* Assets.xcassets */; };
+		7B2BBF2529923B3B00EE0F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2BBF2329923B3B00EE0F1F /* LaunchScreen.storyboard */; };
+		7B2BBF2E29923CA300EE0F1F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B2BBF2D29923CA300EE0F1F /* SnapKit */; };
+		7B2BBF302992407700EE0F1F /* MyPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BBF2F2992407700EE0F1F /* MyPageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B72400F298EDD8C00DA2573 /* UIMenu on UIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIMenu on UIButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B724012298EDD8C00DA2573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B724014298EDD8C00DA2573 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B724016298EDD8C00DA2573 /* UIMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMenuViewController.swift; sourceTree = "<group>"; };
-		7B72401B298EDD8D00DA2573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B72401E298EDD8D00DA2573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7B724020298EDD8D00DA2573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2BBF1529923B3A00EE0F1F /* MyPageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2BBF1829923B3A00EE0F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B2BBF1A29923B3A00EE0F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B2BBF1C29923B3A00EE0F1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B2BBF2129923B3B00EE0F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B2BBF2429923B3B00EE0F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B2BBF2629923B3B00EE0F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2BBF2F2992407700EE0F1F /* MyPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7B72400C298EDD8C00DA2573 /* Frameworks */ = {
+		7B2BBF1229923B3A00EE0F1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B724028298EDF4700DA2573 /* SnapKit in Frameworks */,
+				7B2BBF2E29923CA300EE0F1F /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7B724006298EDD8C00DA2573 = {
+		7B2BBF0C29923B3A00EE0F1F = {
 			isa = PBXGroup;
 			children = (
-				7B724011298EDD8C00DA2573 /* UIMenu on UIButton */,
-				7B724010298EDD8C00DA2573 /* Products */,
+				7B2BBF1729923B3A00EE0F1F /* MyPageDemo */,
+				7B2BBF1629923B3A00EE0F1F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7B724010298EDD8C00DA2573 /* Products */ = {
+		7B2BBF1629923B3A00EE0F1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B72400F298EDD8C00DA2573 /* UIMenu on UIButton.app */,
+				7B2BBF1529923B3A00EE0F1F /* MyPageDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B724011298EDD8C00DA2573 /* UIMenu on UIButton */ = {
+		7B2BBF1729923B3A00EE0F1F /* MyPageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7B724012298EDD8C00DA2573 /* AppDelegate.swift */,
-				7B724014298EDD8C00DA2573 /* SceneDelegate.swift */,
-				7B724016298EDD8C00DA2573 /* UIMenuViewController.swift */,
-				7B72401B298EDD8D00DA2573 /* Assets.xcassets */,
-				7B72401D298EDD8D00DA2573 /* LaunchScreen.storyboard */,
-				7B724020298EDD8D00DA2573 /* Info.plist */,
+				7B2BBF1829923B3A00EE0F1F /* AppDelegate.swift */,
+				7B2BBF1A29923B3A00EE0F1F /* SceneDelegate.swift */,
+				7B2BBF1C29923B3A00EE0F1F /* ViewController.swift */,
+				7B2BBF2129923B3B00EE0F1F /* Assets.xcassets */,
+				7B2BBF2329923B3B00EE0F1F /* LaunchScreen.storyboard */,
+				7B2BBF2629923B3B00EE0F1F /* Info.plist */,
+				7B2BBF2F2992407700EE0F1F /* MyPageCell.swift */,
 			);
-			path = "UIMenu on UIButton";
+			path = MyPageDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B72400E298EDD8C00DA2573 /* UIMenu on UIButton */ = {
+		7B2BBF1429923B3A00EE0F1F /* MyPageDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B724023298EDD8D00DA2573 /* Build configuration list for PBXNativeTarget "UIMenu on UIButton" */;
+			buildConfigurationList = 7B2BBF2929923B3B00EE0F1F /* Build configuration list for PBXNativeTarget "MyPageDemo" */;
 			buildPhases = (
-				7B72400B298EDD8C00DA2573 /* Sources */,
-				7B72400C298EDD8C00DA2573 /* Frameworks */,
-				7B72400D298EDD8C00DA2573 /* Resources */,
+				7B2BBF1129923B3A00EE0F1F /* Sources */,
+				7B2BBF1229923B3A00EE0F1F /* Frameworks */,
+				7B2BBF1329923B3A00EE0F1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "UIMenu on UIButton";
+			name = MyPageDemo;
 			packageProductDependencies = (
-				7B724027298EDF4700DA2573 /* SnapKit */,
+				7B2BBF2D29923CA300EE0F1F /* SnapKit */,
 			);
-			productName = "UIMenu on UIButton";
-			productReference = 7B72400F298EDD8C00DA2573 /* UIMenu on UIButton.app */;
+			productName = MyPageDemo;
+			productReference = 7B2BBF1529923B3A00EE0F1F /* MyPageDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7B724007298EDD8C00DA2573 /* Project object */ = {
+		7B2BBF0D29923B3A00EE0F1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					7B72400E298EDD8C00DA2573 = {
+					7B2BBF1429923B3A00EE0F1F = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 7B72400A298EDD8C00DA2573 /* Build configuration list for PBXProject "UIMenu on UIButton" */;
+			buildConfigurationList = 7B2BBF1029923B3A00EE0F1F /* Build configuration list for PBXProject "MyPageDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,49 +115,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 7B724006298EDD8C00DA2573;
+			mainGroup = 7B2BBF0C29923B3A00EE0F1F;
 			packageReferences = (
-				7B724026298EDF4700DA2573 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7B2BBF2C29923CA300EE0F1F /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
-			productRefGroup = 7B724010298EDD8C00DA2573 /* Products */;
+			productRefGroup = 7B2BBF1629923B3A00EE0F1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B72400E298EDD8C00DA2573 /* UIMenu on UIButton */,
+				7B2BBF1429923B3A00EE0F1F /* MyPageDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7B72400D298EDD8C00DA2573 /* Resources */ = {
+		7B2BBF1329923B3A00EE0F1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B72401F298EDD8D00DA2573 /* LaunchScreen.storyboard in Resources */,
-				7B72401C298EDD8D00DA2573 /* Assets.xcassets in Resources */,
+				7B2BBF2529923B3B00EE0F1F /* LaunchScreen.storyboard in Resources */,
+				7B2BBF2229923B3B00EE0F1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7B72400B298EDD8C00DA2573 /* Sources */ = {
+		7B2BBF1129923B3A00EE0F1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B724017298EDD8C00DA2573 /* UIMenuViewController.swift in Sources */,
-				7B724013298EDD8C00DA2573 /* AppDelegate.swift in Sources */,
-				7B724015298EDD8C00DA2573 /* SceneDelegate.swift in Sources */,
+				7B2BBF1D29923B3A00EE0F1F /* ViewController.swift in Sources */,
+				7B2BBF1929923B3A00EE0F1F /* AppDelegate.swift in Sources */,
+				7B2BBF302992407700EE0F1F /* MyPageCell.swift in Sources */,
+				7B2BBF1B29923B3A00EE0F1F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B72401D298EDD8D00DA2573 /* LaunchScreen.storyboard */ = {
+		7B2BBF2329923B3B00EE0F1F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7B72401E298EDD8D00DA2573 /* Base */,
+				7B2BBF2429923B3B00EE0F1F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7B724021298EDD8D00DA2573 /* Debug */ = {
+		7B2BBF2729923B3B00EE0F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		7B724022298EDD8D00DA2573 /* Release */ = {
+		7B2BBF2829923B3B00EE0F1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,7 +280,7 @@
 			};
 			name = Release;
 		};
-		7B724024298EDD8D00DA2573 /* Debug */ = {
+		7B2BBF2A29923B3B00EE0F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -284,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIMenu on UIButton/Info.plist";
+				INFOPLIST_FILE = MyPageDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -294,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "CJW.UIMenu-on-UIButton";
+				PRODUCT_BUNDLE_IDENTIFIER = CJW.MyPageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		7B724025298EDD8D00DA2573 /* Release */ = {
+		7B2BBF2B29923B3B00EE0F1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -310,7 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIMenu on UIButton/Info.plist";
+				INFOPLIST_FILE = MyPageDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -320,7 +324,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "CJW.UIMenu-on-UIButton";
+				PRODUCT_BUNDLE_IDENTIFIER = CJW.MyPageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -331,20 +335,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B72400A298EDD8C00DA2573 /* Build configuration list for PBXProject "UIMenu on UIButton" */ = {
+		7B2BBF1029923B3A00EE0F1F /* Build configuration list for PBXProject "MyPageDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B724021298EDD8D00DA2573 /* Debug */,
-				7B724022298EDD8D00DA2573 /* Release */,
+				7B2BBF2729923B3B00EE0F1F /* Debug */,
+				7B2BBF2829923B3B00EE0F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B724023298EDD8D00DA2573 /* Build configuration list for PBXNativeTarget "UIMenu on UIButton" */ = {
+		7B2BBF2929923B3B00EE0F1F /* Build configuration list for PBXNativeTarget "MyPageDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B724024298EDD8D00DA2573 /* Debug */,
-				7B724025298EDD8D00DA2573 /* Release */,
+				7B2BBF2A29923B3B00EE0F1F /* Debug */,
+				7B2BBF2B29923B3B00EE0F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -352,7 +356,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7B724026298EDF4700DA2573 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		7B2BBF2C29923CA300EE0F1F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -363,12 +367,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7B724027298EDF4700DA2573 /* SnapKit */ = {
+		7B2BBF2D29923CA300EE0F1F /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7B724026298EDF4700DA2573 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 7B2BBF2C29923CA300EE0F1F /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 7B724007298EDD8C00DA2573 /* Project object */;
+	rootObject = 7B2BBF0D29923B3A00EE0F1F /* Project object */;
 }

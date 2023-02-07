@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  loginpractice
+//  MyPageDemo
 //
-//  Created by 최지우 on 2023/01/26.
+//  Created by 최지우 on 2023/02/07.
 //
 
 import UIKit
@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         window = UIWindow(windowScene: windowScene)
         window?.windowScene = windowScene
-        let navigationController = UINavigationController(rootViewController: LoginController())
+        let navigationController = UINavigationController(rootViewController: ViewController())
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
 

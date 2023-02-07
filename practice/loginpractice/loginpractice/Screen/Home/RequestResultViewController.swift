@@ -135,6 +135,11 @@ class RequestResultViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
+    
+    
+    
+    
+    
     @objc func rejectEvent(){
         let alert = UIAlertController(title: "매칭 요청", message: "매칭을 거절하시겠습니까?", preferredStyle: UIAlertController.Style.alert)
 
