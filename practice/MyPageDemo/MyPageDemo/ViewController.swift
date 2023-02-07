@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBackground
+//        tableView.backgroundColor = .yellow
         
         configureUI()
         
@@ -57,13 +57,13 @@ extension ViewController: UITableViewDataSource {
     
     // 몇 개 할꺼냐
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 400
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! MyPageCell
         
-        cell.backgroundColor = .red
+//        cell.backgroundColor = .red
         
         return cell
     }
@@ -73,10 +73,10 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> UIView? {
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = HeaderView()
         
-        header.backgroundColor = .yellow
+//        header.backgroundColor = .yellow
         
         return header
     }
