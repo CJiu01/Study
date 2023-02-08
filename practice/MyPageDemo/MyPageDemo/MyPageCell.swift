@@ -14,6 +14,7 @@ class MyPageCell: UITableViewCell {
     let menuLabel = UILabel()
     
     
+    
     // MARK : - Lifecycle
     
     // 아래의 initializer는 viewDidLoad의 역할을 한다.
@@ -37,6 +38,8 @@ class MyPageCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
     
     // MARK : - Helpers
     
