@@ -54,6 +54,10 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         
+        // section 사이의 footer 안보이게 설정
+        tableView.tableFooterView = UIView(frame: .zero)
+        tableView.sectionFooterHeight = 0
+        
 //        tableView.backgroundColor = .orange
         tableView.tableFooterView = UIView()
         

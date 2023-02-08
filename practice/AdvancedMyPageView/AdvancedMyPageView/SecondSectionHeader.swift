@@ -29,7 +29,7 @@ class SecondSectionHeader: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-//        backgroundColor = .lightGray
+        backgroundColor = .lightGray
 
         configureUI()
     }
