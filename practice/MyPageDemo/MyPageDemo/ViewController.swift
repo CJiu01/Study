@@ -69,6 +69,8 @@ extension ViewController: UITableViewDataSource {
         
         // Set Label
         cell.menuLabel.text = myPageMenu[indexPath.row]
+        // cell 우측에 > 기호 추가
+        cell.accessoryType = .disclosureIndicator
         
         return cell
     }
@@ -89,5 +91,10 @@ extension ViewController: UITableViewDelegate {
     // header의 크기를 지정해주어야 함.
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 160
+    }
+    
+    // cell을 select와 동시에 didselect 하는 함수
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
