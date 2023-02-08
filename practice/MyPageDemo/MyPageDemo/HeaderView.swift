@@ -47,6 +47,6 @@ class HeaderView: UIView {
             make.height.equalTo(120)
             make.center.equalToSuperview()
         }
-        
     }
+    
 }

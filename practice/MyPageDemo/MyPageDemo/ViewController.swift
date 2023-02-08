@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     let tableView = UITableView(frame: .zero, style: .grouped)
     
+    let myPageMenu = ["내 정보 수정", "공지사항", "피드백", "기타"]
+    
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
@@ -57,13 +59,16 @@ extension ViewController: UITableViewDataSource {
     
     // 몇 개 할꺼냐
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return myPageMenu.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! MyPageCell
         
 //        cell.backgroundColor = .red
+        
+        // Set Label
+        cell.menuLabel.text = myPageMenu[indexPath.row]
         
         return cell
     }
@@ -83,6 +88,6 @@ extension ViewController: UITableViewDelegate {
     
     // header의 크기를 지정해주어야 함.
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 180
+        return 160
     }
 }
