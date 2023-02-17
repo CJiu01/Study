@@ -1,24 +1,27 @@
 //
 //  SceneDelegate.swift
-//  withStoryboard_swift
+//  HalfModalPresentation
 //
-//  Created by 최지우 on 2023/01/23.
+//  Created by 최지우 on 2023/02/17.
 //
 
 import UIKit
+import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-    
+
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        
         guard let windowScene = (scene as? UIWindowScene) else { return }
+
         window = UIWindow(windowScene: windowScene)
-        let mainViewController = ViewController()
-        let navigationContoller = UINavigationController(rootViewController: mainViewController)
-            
-        window?.rootViewController = navigationContoller
+        window?.windowScene = windowScene
+        let navigationController = UINavigationController(rootViewController: ViewController())
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
+
     }
 }
