@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import FSCalendar
 
-class CalendarView : UIViewController, FSCalendarDelegate, UISheetPresentationControllerDelegate {
+class CalendarViewController : UIViewController, FSCalendarDelegate, UISheetPresentationControllerDelegate {
     
     var calendar = FSCalendar()
 
