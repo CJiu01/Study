@@ -16,6 +16,8 @@
 		7B2BBF8429940A9100EE0F1F /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BBF8329940A9100EE0F1F /* VideoCell.swift */; };
 		7B2BBF862994110D00EE0F1F /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BBF852994110D00EE0F1F /* UIViewController+.swift */; };
 		7B2BBF882994EC2600EE0F1F /* windowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BBF872994EC2600EE0F1F /* windowScene.swift */; };
+		7B2BC03829A38B7B00EE0F1F /* EmployeeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BC03729A38B7B00EE0F1F /* EmployeeController.swift */; };
+		7B2BC03A29A38E7300EE0F1F /* blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BC03929A38E7300EE0F1F /* blank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		7B2BBF8329940A9100EE0F1F /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		7B2BBF852994110D00EE0F1F /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		7B2BBF872994EC2600EE0F1F /* windowScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windowScene.swift; sourceTree = "<group>"; };
+		7B2BC03729A38B7B00EE0F1F /* EmployeeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeController.swift; sourceTree = "<group>"; };
+		7B2BC03929A38E7300EE0F1F /* blank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				7B2BBF6E2994057B00EE0F1F /* SceneDelegate.swift */,
 				7B2BBF872994EC2600EE0F1F /* windowScene.swift */,
 				7B2BBF702994057B00EE0F1F /* ViewController.swift */,
+				7B2BC03729A38B7B00EE0F1F /* EmployeeController.swift */,
+				7B2BC03929A38E7300EE0F1F /* blank.swift */,
 				7B2BBF852994110D00EE0F1F /* UIViewController+.swift */,
 				7B2BBF8329940A9100EE0F1F /* VideoCell.swift */,
 				7B2BBF752994057C00EE0F1F /* Assets.xcassets */,
@@ -152,9 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B2BBF712994057B00EE0F1F /* ViewController.swift in Sources */,
+				7B2BC03829A38B7B00EE0F1F /* EmployeeController.swift in Sources */,
 				7B2BBF8429940A9100EE0F1F /* VideoCell.swift in Sources */,
 				7B2BBF862994110D00EE0F1F /* UIViewController+.swift in Sources */,
 				7B2BBF6D2994057B00EE0F1F /* AppDelegate.swift in Sources */,
+				7B2BC03A29A38E7300EE0F1F /* blank.swift in Sources */,
 				7B2BBF882994EC2600EE0F1F /* windowScene.swift in Sources */,
 				7B2BBF6F2994057B00EE0F1F /* SceneDelegate.swift in Sources */,
 			);

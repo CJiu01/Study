@@ -10,6 +10,12 @@ import SnapKit
 
 private let cellID = "videoCell"
 
+// MARK: TaskDelegate
+protocol TaskDelegate {
+    func addTask(task:String)
+}
+
+// MARK: JobsController
 class ViewController: UIViewController {
     
     // MARK : - Properties
@@ -31,7 +37,7 @@ class ViewController: UIViewController {
         button.backgroundColor = .red
         button.layer.cornerRadius = 25
         
-        button.addTarget(ViewController.self, action: #selector(addButtonTapped), for: .touchUpInside)
+        button.addTarget(self, action: #selector(addButtonTapped), for: .touchUpInside)
        
         return button
     }()
@@ -110,24 +116,30 @@ class ViewController: UIViewController {
     }
     
     @objc func addButtonTapped() {
-        insertNewVideoTitle()
+//        insertNewVideoTitle()
+        
+        let employController = EmployeeController()
+        
+        employController.taskDelegate = self
+        present(employController, animated: true, completion: nil)
+//        navigationController?.pushViewController(employController, animated: true)
     }
     
-    func insertNewVideoTitle() {
-        
-        videos.append(addVideoTextField.text!)
-        
-        let indexPath = IndexPath(row: videos.count - 1, section: 0)
-        
-        tableView.beginUpdates()
-        tableView.insertRows(at: [indexPath], with: .automatic)
-        tableView.endUpdates()
-        
-        addVideoTextField.text = ""
-        view.endEditing(true)
-         
-        
-    }
+//    func insertNewVideoTitle() {
+//
+//        videos.append(addVideoTextField.text!)
+//
+//        let indexPath = IndexPath(row: videos.count - 1, section: 0)
+//
+//        tableView.beginUpdates()
+//        tableView.insertRows(at: [indexPath], with: .automatic)
+//        tableView.endUpdates()
+//
+//        addVideoTextField.text = ""
+//        view.endEditing(true)
+//
+//
+//    }
 
     
 }
@@ -157,6 +169,13 @@ extension ViewController : UITableViewDelegate {
         return 65
     }
     
+}
+
+extension ViewController:TaskDelegate {
+    func addTask(task: String) {
+        videos.append(task)
+        tableView.reloadData()
+    }
 }
 
 
