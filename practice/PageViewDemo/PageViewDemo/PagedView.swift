@@ -15,7 +15,7 @@ protocol PagedViewDelegate: AnyObject {
 class PagedView: UIView, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     
     // MARK: - Initialization
-    init(page: [UIView] = []) {
+    init(pages: [UIView] = []) {
         
         self.pages = pages
         super.init(frame: .zero)
