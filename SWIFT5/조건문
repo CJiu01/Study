@@ -1,0 +1,32 @@
+# 조건문
+
+### swift 조건문
+
+```swift
+import UIKit
+
+var isDarkMode : Bool = true
+
+// if 조건문의 괄호를 없애는 것도 가능하다.
+if (isDarkMode == true) {
+    print("다크모드 입니다")
+} else {
+    print("다크모드가 아닙니다")
+}
+
+// 아래와 같이 생략시에는
+// isDarkMode == true 와 동일
+if isDarkMode {
+    print("다크모드 입니다")
+} else {
+    print("다크모드가 아닙니다")
+}
+
+```
+
+### 삼항 연산자를 사용한 조건문
+
+```swift
+// 위와 동일하게 isDarkMode == false 는 !isDarkMode 로 표현이 가능하다
+var title : String = isDarkMode == false ? "다크모드 입니다" : "다크모드가 아닙니다"
+```

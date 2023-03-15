@@ -68,11 +68,11 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ToP-eS-cbW">
-                                <rect key="frame" x="0.0" y="765" width="393" height="44"/>
+                                <rect key="frame" x="0.0" y="764" width="392" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Fr0-pT-dg4"/>
-                                    <barButtonItem title="Item" systemItem="stop" id="atK-Jx-54h">
+                                    <barButtonItem systemItem="stop" id="atK-Jx-54h">
                                         <connections>
                                             <action selector="btnStop:" destination="BYZ-38-t0r" id="IQh-6E-eGb"/>
                                         </connections>
